@@ -1,4 +1,3 @@
-from tkinter.tix import Tree
 import cv2
 import matplotlib.pyplot as plt
 from numpy import ndarray
@@ -109,7 +108,7 @@ def find_all_coordinates(contours) -> list:
         all_coordinates.append(table)
     return all_coordinates
 
-def find_crop_coordinates(img, tables):
+def find_crop_coordinates(img: ndarray, tables: list) -> list:
     '''
     -------------
     Parameters
@@ -148,7 +147,7 @@ def find_crop_coordinates(img, tables):
         main_ques.append((i + 1, crop_table))
     return main_ques
 
-def horizontal_detect(table):
+def horizontal_detect(table: ndarray) -> list:
     '''
     horizontal_detect(table)
         Detecting all the horizontal lines in the image `table`
@@ -173,10 +172,10 @@ def horizontal_detect(table):
     
     return cnts
 
-def vertical_detect(table):
+def vertical_detect(table: ndarray) -> list:
     '''
     vertical_detect(table)
-        Detecting all the horizontal lines in the image `table`
+        Detecting all the vertical lines in the image `table`
     -------------
     Parameters
     -------------
@@ -198,7 +197,7 @@ def vertical_detect(table):
     
     return cnts
 
-def get_result(main_ques):
+def get_result(main_ques: list(tuple)):
     '''
     get_result(main_ques)
         Get the result for this problem: Number of main questions and number of sub-anwsers in each main question.
