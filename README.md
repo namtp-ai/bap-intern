@@ -29,7 +29,7 @@ Preprocessing data from scratch using OpenCV, building model (VGG16) and trainin
 Clone the repo from Github and pull the project.
 ```bash
 git clone https://github.com/namtp-ai/bap-intern.git
-git checkout hanldn/problem1
+git checkout hanldn/problem2
 git pull
 ```
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.txt.
