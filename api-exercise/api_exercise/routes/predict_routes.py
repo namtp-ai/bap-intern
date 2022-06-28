@@ -4,10 +4,14 @@ from icqc import icqc
 from PIL import Image
 import io
 from config import icqc_config
-from database import add_predict_history
+from database import conn, add_predict_history
+from schemas import serializeList
 
 predict_routes = APIRouter()
 
+@predict_routes.get("/")
+async def predict_history():
+    return serializeList(conn.ICQC.history.find())
 
 @predict_routes.post("/")
 async def predict_image(file: UploadFile = Form(...)):
