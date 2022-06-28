@@ -1,6 +1,9 @@
 # Deep learning model
 model.pt
 
+# Image folder
+missing
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
