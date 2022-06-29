@@ -10,6 +10,10 @@ fastapi = "^0.78.0"
 uvicorn = "^0.18.2"
 pymongo = {extras = ["srv"], version = "^4.1.1"}
 pydantic = "^1.9.1"
+Pillow = "^9.1.1"
+timm = "^0.5.4"
+pandas = "^1.4.3"
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

@@ -1,6 +1,5 @@
 def flowerEntity(item) -> dict:
     return {
-        "id": str(item["_id"]),
         "amount": str(item["num"]),
         "eng_name": str(item["English name"]),
         "vie_name": str(item["Vietnam name"]),
