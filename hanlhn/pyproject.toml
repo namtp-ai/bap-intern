@@ -8,6 +8,7 @@ authors = ["hanahh080601 <hanlehngoc080601@gmail.com>"]
 python = "^3.10"
 fastapi = "^0.78.0"
 uvicorn = "^0.18.2"
+pymongo = {extras = ["srv"], version = "^4.1.1"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
