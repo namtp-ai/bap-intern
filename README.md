@@ -27,40 +27,40 @@ poetry update
 
 # Project tree 
 .  
-├── hanlhn                      
-│     ├── __pycache__
-│     ├── .venv           
-│     ├── poetry.lock  
-│     ├── pyproject.toml 
-│     ├── README.rst
-│     └── hanlhn 
-│           ├── __pycache__
-│           ├── config   
-│           │      ├── __pycache__
-│           │      └── mongodb.py         
-│           ├── models 
-│           │      ├── flower_classification.pt
-│           │      └── flower.py  
-│           ├── predict
-│           │      ├── __pycache__
-│           │      ├── __init__.py
-│           │      └── predict.py    
-│           ├── routes
-│           │      ├── __pycache__
-│           │      └── flower.py 
-│           ├── schemas
-│           │      ├── __pycache__
-│           │      └── flower.py 
-│           ├── tests
-│           │      ├── __pycache__
-│           │      ├── __init__.py
-│           │      └── test_hanlhn.py 
-│           ├── __init__.py 
-│           ├── index2name.pkl
-│           ├── main.py
-│           └── Rose_test.jpg
-├── .gitignore               
-└── README.md
+├── hanlhn                       
+│     ├── __pycache__  
+│     ├── .venv             
+│     ├── poetry.lock    
+│     ├── pyproject.toml   
+│     ├── README.rst  
+│     └── hanlhn   
+│           ├── __pycache__  
+│           ├── config      
+│           │      ├── __pycache__  
+│           │      └── mongodb.py           
+│           ├── models   
+│           │      ├── flower_classification.pt  
+│           │      └── flower.py    
+│           ├── predict  
+│           │      ├── __pycache__  
+│           │      ├── __init__.py  
+│           │      └── predict.py      
+│           ├── routes  
+│           │      ├── __pycache__  
+│           │      └── flower.py   
+│           ├── schemas  
+│           │      ├── __pycache__  
+│           │      └── flower.py   
+│           ├── tests  
+│           │      ├── __pycache__  
+│           │      ├── __init__.py  
+│           │      └── test_hanlhn.py   
+│           ├── __init__.py   
+│           ├── index2name.pkl  
+│           ├── main.py  
+│           └── Rose_test.jpg  
+├── .gitignore                 
+└── README.md  
 
 
 ## Usage: For running server
